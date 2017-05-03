@@ -21,6 +21,7 @@ namespace StarWarsEvade
         GameStates gameState = GameStates.TitleScreen;
         Texture2D titleScreen;
         Texture2D spriteSheet;
+        Texture2D Intermission;
         
             
         GraphicsDeviceManager graphics;
@@ -56,6 +57,7 @@ namespace StarWarsEvade
 
             titleScreen = Content.Load<Texture2D>(@"Textures\TitleScreen");
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
+            Intermission = Content.Load<Texture2D>(@"Textures\Intermission");
             // TODO: use this.Content to load your game content here
         }
 

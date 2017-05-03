@@ -7,8 +7,26 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\eahscs\documents\visual studio 2015\Projects\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2017-05-02T12:41:52.2224101-04:00</Time>
+      <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
+      <Time>2017-05-03T10:31:22.6098487-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Intermission.png</Source>
+      <Name>Textures\Intermission</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\Intermission.xnb</Output>
+      <Time>2017-05-03T11:04:02.0764156-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\SpriteSheet.png</Source>
+      <Name>Textures\SpriteSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
+      <Time>2017-05-03T11:08:52.9451592-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -17,10 +35,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\eahscs\documents\visual studio 2015\Projects\StarWarsEvade\StarWarsEvade\StarWarsEvadeContent\</RootDirectory>
-      <LoggerRootDirectory>c:\users\eahscs\documents\visual studio 2015\Projects\StarWarsEvade\StarWarsEvade\StarWarsEvade\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\eahscs\documents\visual studio 2015\Projects\StarWarsEvade\StarWarsEvade\StarWarsEvade\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\eahscs\documents\visual studio 2015\Projects\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvadeContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

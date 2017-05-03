@@ -15,3 +15,22 @@ c:\users\eahscs\documents\visual studio 2015\Projects\StarWarsEvade\StarWarsEvad
 c:\users\eahscs\documents\visual studio 2015\Projects\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
 c:\users\eahscs\documents\visual studio 2015\Projects\StarWarsEvade\StarWarsEvade\StarWarsEvade\obj\x86\Debug\StarWarsEvade.exe
 c:\users\eahscs\documents\visual studio 2015\Projects\StarWarsEvade\StarWarsEvade\StarWarsEvade\obj\x86\Debug\StarWarsEvade.pdb
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\obj\x86\Debug\StarWarsEvade.exe
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\obj\x86\Debug\StarWarsEvade.pdb
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\TitleScreen.xnb
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\Intermission.xnb
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\SpriteSheet.xnb
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\StarWarsEvade.exe
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\StarWarsEvade.pdb
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\obj\x86\Debug\StarWarsEvade.csprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt

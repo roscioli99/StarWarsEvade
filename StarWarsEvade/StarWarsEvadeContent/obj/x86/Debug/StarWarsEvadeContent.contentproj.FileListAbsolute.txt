@@ -1,1 +1,2 @@
 c:\users\eahscs\documents\visual studio 2015\Projects\StarWarsEvade\StarWarsEvade\StarWarsEvadeContent\obj\x86\Debug\StarWarsEvadeContent.contentprojResolveAssemblyReference.cache
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvadeContent\obj\x86\Debug\StarWarsEvadeContent.contentprojResolveAssemblyReference.cache
