@@ -17,9 +17,10 @@ namespace StarWarsEvade
     public class Game1 : Microsoft.Xna.Framework.Game
     {
 
-        enum GameStates { TitleScreen, Playing, GameOver };
+        enum GameStates { TitleScreen, Intermission, Playing, GameOver };
         GameStates gameState = GameStates.TitleScreen;
         Texture2D titleScreen;
+        Texture2D spriteSheet;
         
             
         GraphicsDeviceManager graphics;
@@ -54,6 +55,7 @@ namespace StarWarsEvade
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             titleScreen = Content.Load<Texture2D>(@"Textures\TitleScreen");
+            spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
             // TODO: use this.Content to load your game content here
         }
 
@@ -84,10 +86,21 @@ namespace StarWarsEvade
                    
                 if (kb.IsKeyDown(Keys.Space))
                     {
+                        gameState = GameStates.Intermission;
+                    }
+                    break;
+
+                case GameStates.Intermission:
+                    KeyboardState key = Keyboard.GetState();
+
+                    if (key.IsKeyDown(Keys.Space))
+                    {
                         gameState = GameStates.Playing;
                     }
                     break;
             }
+
+            
 
             // TODO: Add your update logic here
 
