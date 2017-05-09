@@ -18,7 +18,7 @@ namespace StarWarsEvade
     {
 
         enum GameStates { TitleScreen, Intermission, Playing, GameOver };
-        GameStates gameState = GameStates.TitleScreen;
+        GameStates gameState = GameStates.TitleScreen ;
         Texture2D titleScreen;
         Texture2D spriteSheet;
         Texture2D Intermission;
@@ -122,6 +122,10 @@ namespace StarWarsEvade
             if (gameState == GameStates.TitleScreen)
             {
                 spriteBatch.Draw(titleScreen, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
+            }
+            if (gameState == GameStates.Intermission)
+            {
+                spriteBatch.Draw(Intermission, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
             }
             // TODO: Add your drawing code here
             spriteBatch.End();
