@@ -22,6 +22,8 @@ namespace StarWarsEvade
         Texture2D titleScreen;
         Texture2D spriteSheet;
         Texture2D Intermission;
+        bool spacePressed = false;
+        Random rand;
         
             
         GraphicsDeviceManager graphics;
@@ -31,6 +33,7 @@ namespace StarWarsEvade
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            rand = new Random(System.Environment.TickCount);
         }
 
         /// <summary>
@@ -86,19 +89,27 @@ namespace StarWarsEvade
                 case GameStates.TitleScreen:
                     KeyboardState kb = Keyboard.GetState();
                    
-                if (kb.IsKeyDown(Keys.Space))
+                    if (!spacePressed && kb.IsKeyDown(Keys.Space))
                     {
+                        spacePressed = true;
                         gameState = GameStates.Intermission;
                     }
+
+                    if (kb.IsKeyUp(Keys.Space)) spacePressed = false;
+
                     break;
 
                 case GameStates.Intermission:
                     KeyboardState key = Keyboard.GetState();
-
-                    if (key.IsKeyDown(Keys.Space))
+                 
+                    if (!spacePressed && key.IsKeyDown(Keys.Space))
                     {
+                        spacePressed = true;
                         gameState = GameStates.Playing;
                     }
+
+                    if (key.IsKeyUp(Keys.Space)) spacePressed = false;
+
                     break;
             }
 
@@ -115,7 +126,7 @@ namespace StarWarsEvade
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Gray);
 
             spriteBatch.Begin();
 
@@ -126,6 +137,13 @@ namespace StarWarsEvade
             if (gameState == GameStates.Intermission)
             {
                 spriteBatch.Draw(Intermission, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
+            }
+            if (gameState == GameStates.Playing)
+            {
+                for (int i = 0; i < 10000; i++)
+                {
+                    spriteBatch.Draw(Intermission, new Rectangle(rand.Next(0, this.Window.ClientBounds.Width), rand.Next(0,this.Window.ClientBounds.Height) , 5, 5), new Rectangle(rand.Next(0,500), rand.Next(0,200), 5, 5), Color.White);
+                }
             }
             // TODO: Add your drawing code here
             spriteBatch.End();
