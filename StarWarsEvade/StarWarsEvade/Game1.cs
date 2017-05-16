@@ -22,6 +22,7 @@ namespace StarWarsEvade
         Texture2D titleScreen;
         Texture2D spriteSheet;
         Texture2D Intermission;
+        Sprite ship;
         bool spacePressed = false;
         Random rand;
         
@@ -61,6 +62,7 @@ namespace StarWarsEvade
             titleScreen = Content.Load<Texture2D>(@"Textures\TitleScreen");
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
             Intermission = Content.Load<Texture2D>(@"Textures\Intermission");
+            ship = new Sprite(new Vector2(200, 30f), spriteSheet, new Rectangle(-1, 1648, 418, 2043), new Vector2(0, 100));
             // TODO: use this.Content to load your game content here
         }
 
