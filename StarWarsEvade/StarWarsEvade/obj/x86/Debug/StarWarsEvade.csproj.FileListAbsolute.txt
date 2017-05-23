@@ -34,3 +34,4 @@ C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x
 C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
 C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\obj\x86\Debug\StarWarsEvade.csprojResolveAssemblyReference.cache
 C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\Background.xnb

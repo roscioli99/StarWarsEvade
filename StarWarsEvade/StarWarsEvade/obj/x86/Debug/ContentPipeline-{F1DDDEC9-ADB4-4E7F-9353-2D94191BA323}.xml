@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2017-05-10T11:04:28.5138573-04:00</Time>
+      <Time>2017-05-23T11:30:37.9753043-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\Intermission.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\Intermission.xnb</Output>
-      <Time>2017-05-10T11:04:28.409689-04:00</Time>
+      <Time>2017-05-23T11:30:37.7832266-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\SpriteSheet.png</Source>
@@ -26,7 +26,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
-      <Time>2017-05-10T11:04:28.4126911-04:00</Time>
+      <Time>2017-05-23T11:30:37.7862126-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\Background.png</Source>
+      <Name>Textures\Background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\Background.xnb</Output>
+      <Time>2017-05-23T11:57:05.2568159-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

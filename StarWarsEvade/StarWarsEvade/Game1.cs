@@ -22,6 +22,7 @@ namespace StarWarsEvade
         Texture2D titleScreen;
         Texture2D spriteSheet;
         Texture2D Intermission;
+        Texture2D Background;
         Sprite ship;
         bool spacePressed = false;
         Random rand;
@@ -62,6 +63,7 @@ namespace StarWarsEvade
             titleScreen = Content.Load<Texture2D>(@"Textures\TitleScreen");
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
             Intermission = Content.Load<Texture2D>(@"Textures\Intermission");
+            Background = Content.Load<Texture2D>(@"Textures\Background");
             ship = new Sprite(new Vector2(200, 30f), spriteSheet, new Rectangle(-1, 1648, 418, 2043), new Vector2(0, 100));
             // TODO: use this.Content to load your game content here
         }
@@ -140,12 +142,10 @@ namespace StarWarsEvade
             {
                 spriteBatch.Draw(Intermission, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
             }
+
             if (gameState == GameStates.Playing)
             {
-                for (int i = 0; i < 10000; i++)
-                {
-                    spriteBatch.Draw(Intermission, new Rectangle(rand.Next(0, this.Window.ClientBounds.Width), rand.Next(0,this.Window.ClientBounds.Height) , 5, 5), new Rectangle(rand.Next(0,500), rand.Next(0,200), 5, 5), Color.White);
-                }
+                
             }
             // TODO: Add your drawing code here
             spriteBatch.End();
