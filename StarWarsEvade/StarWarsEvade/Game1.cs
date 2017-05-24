@@ -23,9 +23,13 @@ namespace StarWarsEvade
         Texture2D spriteSheet;
         Texture2D Intermission;
         Texture2D Background;
+        Texture2D bootyLips;
         Sprite ship;
+
         bool spacePressed = false;
         Random rand;
+        int score = 0;
+        int timer = 0;
         
             
         GraphicsDeviceManager graphics;
@@ -64,6 +68,7 @@ namespace StarWarsEvade
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
             Intermission = Content.Load<Texture2D>(@"Textures\Intermission");
             Background = Content.Load<Texture2D>(@"Textures\Background");
+            bootyLips = Content.Load<Texture2D>(@"Textures\bootyLips");
             ship = new Sprite(new Vector2(200, 30f), spriteSheet, new Rectangle(-1, 1648, 418, 2043), new Vector2(0, 100));
             // TODO: use this.Content to load your game content here
         }
@@ -115,9 +120,20 @@ namespace StarWarsEvade
                     if (key.IsKeyUp(Keys.Space)) spacePressed = false;
 
                     break;
-            }
 
-            
+                case GameStates.Playing:
+                    for (int i = 0; i > 0; i++)
+                        {
+                        timer = i;
+                        score = timer;
+                        }
+                    break;
+
+                case GameStates.GameOver:
+
+                    break;
+
+            }
 
             // TODO: Add your update logic here
 
@@ -145,7 +161,12 @@ namespace StarWarsEvade
 
             if (gameState == GameStates.Playing)
             {
-                
+                spriteBatch.Draw(Background, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
+                ship.Draw(spriteBatch);
+            }
+            if (gameState == GameStates.GameOver)
+            {
+                spriteBatch.Draw(bootyLips, new Rectangle(0, 0, this.Window.ClientBounds.Width, this.Window.ClientBounds.Height), Color.White);
             }
             // TODO: Add your drawing code here
             spriteBatch.End();

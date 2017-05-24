@@ -8,7 +8,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2017-05-23T11:30:37.9753043-04:00</Time>
+      <Time>2017-05-24T12:03:17.4778377-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\Intermission.png</Source>
@@ -17,7 +17,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\Intermission.xnb</Output>
-      <Time>2017-05-23T11:30:37.7832266-04:00</Time>
+      <Time>2017-05-24T12:03:17.4708327-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\SpriteSheet.png</Source>
@@ -26,7 +26,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
-      <Time>2017-05-23T11:30:37.7862126-04:00</Time>
+      <Time>2017-05-24T12:03:17.4728338-04:00</Time>
     </Item>
     <Item>
       <Source>Textures\Background.png</Source>
@@ -35,7 +35,16 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\Background.xnb</Output>
-      <Time>2017-05-23T11:57:05.2568159-04:00</Time>
+      <Time>2017-05-24T12:03:17.4648285-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\bootyLips.png</Source>
+      <Name>Textures\bootyLips</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\eahscs\Documents\GitHub\StarWarsEvade\StarWarsEvade\StarWarsEvade\bin\x86\Debug\Content\Textures\bootyLips.xnb</Output>
+      <Time>2017-05-24T12:28:53.4350065-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

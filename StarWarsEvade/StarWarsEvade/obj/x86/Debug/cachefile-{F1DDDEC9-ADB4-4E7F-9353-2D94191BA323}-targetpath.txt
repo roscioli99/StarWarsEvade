@@ -2,3 +2,4 @@ Content\Textures\TitleScreen.xnb
 Content\Textures\Intermission.xnb
 Content\Textures\SpriteSheet.xnb
 Content\Textures\Background.xnb
+Content\Textures\bootyLips.xnb
