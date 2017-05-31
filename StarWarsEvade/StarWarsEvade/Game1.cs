@@ -92,6 +92,7 @@ namespace StarWarsEvade
             // Allows the game to exit
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
                 this.Exit();
+            
 
             switch (gameState)
             {
@@ -122,11 +123,12 @@ namespace StarWarsEvade
                     break;
 
                 case GameStates.Playing:
+                    key = Keyboard.GetState();
                     for (int i = 0; i > 0; i++)
-                        {
+                    {
                         timer = i;
                         score = timer;
-                        }
+                    }
                     break;
 
                 case GameStates.GameOver:
